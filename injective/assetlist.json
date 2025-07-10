@@ -1024,8 +1024,8 @@
         }
       ],
       "socials": {
-        "website": "https://github.com/raphaellafar/Cosmo",
-        "twitter": "https://x.com/CosmoClub84"
+        "website": "https://cosmoport.org",
+        "twitter": "https://x.com/cosmoport_org"
       },
       "type_asset": "sdk.coin"
     },
@@ -1458,118 +1458,6 @@
         "twitter": "https://x.com/instantnoodlesinc"
       },
       "type_asset": "sdk.coin"
-    },
-    {
-      "description": "CW20 hINJ - Hydro Staked INJ",
-      "denom_units": [
-        {
-          "denom": "cw20:inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
-          "exponent": 0
-        },
-        {
-          "denom": "hINJ",
-          "exponent": 18
-        }
-      ],
-      "type_asset": "cw20",
-      "address": "inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
-      "base": "cw20:inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
-      "name": "cw20 hINJ",
-      "display": "hINJ",
-      "symbol": "hINJ",
-      "traces": [
-        {
-          "type": "legacy-mintage",
-          "counterparty": {
-            "chain_name": "injective",
-            "base_denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc"
-          },
-          "provider": "Hydro"
-        }
-      ],
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png"
-      },
-      "images": [
-        {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png"
-        }
-      ]
-    },
-    {
-      "description": "Factory Wrapped hINJ - Hydro Staked INJ",
-      "denom_units": [
-        {
-          "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
-          "exponent": 0
-        },
-        {
-          "denom": "Hydro Wrapped hINJ",
-          "exponent": 18
-        }
-      ],
-      "base": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
-      "name": "Hydro Wrapped hINJ",
-      "display": "Hydro Wrapped hINJ",
-      "symbol": "hINJ",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png"
-      },
-      "images": [
-        {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/hinj.png"
-        }
-      ],
-      "type_asset": "sdk.coin"
-    },
-    {
-      "description": "Wrapped Bitcoin via Eureka",
-      "denom_units": [
-        {
-          "denom": "ibc/0E293A7622DC9A6439DB60E6D234B5AF446962E27CA3AB44D0590603DFF6968E",
-          "exponent": 0
-        },
-        {
-          "denom": "wbtc",
-          "exponent": 8
-        }
-      ],
-      "type_asset": "ics20",
-      "base": "ibc/0E293A7622DC9A6439DB60E6D234B5AF446962E27CA3AB44D0590603DFF6968E",
-      "name": "Wrapped Bitcoin (Eureka)",
-      "display": "wbtc",
-      "symbol": "WBTC.atom",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chain_name": "cosmoshub",
-            "base_denom": "ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462",
-            "channel_id": "channel-220"
-          },
-          "chain": {
-            "channel_id": "channel-0",
-            "path": "transfer/channel-0/transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
-          }
-        }
-      ],
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
-      },
-      "images": [
-        {
-          "image_sync": {
-            "chain_name": "cosmoshub",
-            "base_denom": "ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462"
-          },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg",
-          "theme": {
-            "primary_color_hex": "#f39444"
-          }
-        }
-      ]
     }
   ]
 }
